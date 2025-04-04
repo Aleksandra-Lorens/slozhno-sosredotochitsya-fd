@@ -13,4 +13,23 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+}
+ 
+.theme-dark .page .header {
+} 
+
+.theme-dark .page .header h1 {
+  text-shadow: 4px 4px 0px #FF0070;
+  color: #DB00FF;
+}
+
+.theme-dark .page .header .title-decor {
+  background-color:#FF0070;
+  
+}
+
+.theme-dark .page .header button {
+  color: #FF0070;
 }
