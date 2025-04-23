@@ -15,6 +15,8 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .theme-dark .page .header {}
@@ -59,4 +61,12 @@
 
 .theme-dark .page .header button {
   color: #FF0070;
+}
+
+.theme-dark .page .header button:hover {
+  border-color: #FF007066
+}
+
+.theme-dark .page .header button:focus {
+  border-bottom-color: #FF0070;
 }

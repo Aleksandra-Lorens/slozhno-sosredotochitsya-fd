@@ -74,6 +74,12 @@
   padding: 1.5px 13px;
 }
 
+.theme-dark .page .header button:focus {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
 .page .header .header__theme-menu-list {
   padding: 0;
   margin: 0;
