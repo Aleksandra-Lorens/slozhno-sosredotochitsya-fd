@@ -16,9 +16,33 @@
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 }
- 
-.theme-dark .page .header {
-} 
+
+.theme-dark .page .header {}
+
+.theme-dark .page .header .rec {
+  display: block;
+  position: absolute;
+  padding-right: 28px;
+  right: 10px;
+  top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FF0070;
+}
+
+.theme-dark .page .header .rec::after {
+  content: '';
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #FF0070;
+  box-shadow: 0px 0px 4px 2px #FF0070;
+
+}
 
 .theme-dark .page .header h1 {
   text-shadow: 4px 4px 0px #FF0070;
@@ -26,8 +50,11 @@
 }
 
 .theme-dark .page .header .title-decor {
-  background-color:#FF0070;
-  
+  background-color: #FF0070;
+}
+
+.theme-dark .page .header p {
+  color: #000028;
 }
 
 .theme-dark .page .header button {
