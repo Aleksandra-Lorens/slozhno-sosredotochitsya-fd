@@ -51,6 +51,11 @@
   color: #DB00FF;
 }
 
+.theme-dark #footer .logo {
+  text-shadow: 2px 2px 0px #FF0070;
+  color: #DB00FF;
+}
+
 .theme-dark .page .header .title-decor,
 .theme-dark .item h3,
 .theme-dark .gallery h3,

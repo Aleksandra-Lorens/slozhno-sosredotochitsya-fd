@@ -13,7 +13,8 @@
   padding: 0 10px;
 }
 
-.page .header::before {
+.page .header::before,
+#footer::before {
   content: '';
   position: absolute;
   left: 10px;
@@ -25,7 +26,8 @@
   background-repeat: no-repeat;
 }
 
-.page .header::after {
+.page .header::after,
+#footer::after  {
   content: '';
   position: absolute;
   right: 10px;
@@ -313,3 +315,18 @@
   height: 433px;
   object-fit: cover;
 }*/
+
+#footer {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#footer .logo {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-weight: 700;
+  line-height: 83%;
+}
