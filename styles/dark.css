@@ -51,14 +51,21 @@
   color: #DB00FF;
 }
 
-.theme-dark .page .header .title-decor {
+.theme-dark .page .header .title-decor,
+.theme-dark .item h3,
+.theme-dark .gallery h3,
+.theme-dark .section-title {
   background-color: #FF0070;
 }
 
-.theme-dark .page .header p {
+.theme-dark .page .header p,
+.theme-dark .item h3,
+.theme-dark .gallery h3,
+.theme-dark .section-title {
   color: #000028;
 }
 
+.theme-dark .article,
 .theme-dark .page .header button {
   color: #FF0070;
 }
@@ -69,4 +76,12 @@
 
 .theme-dark .page .header button:focus {
   border-bottom-color: #FF0070;
+}
+
+.theme-dark .item p {
+  color: #F1B2CE;
+}
+
+.item p a:focus {
+  border-color: #F1B2CE;
 }
