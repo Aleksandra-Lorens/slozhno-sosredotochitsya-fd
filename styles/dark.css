@@ -90,3 +90,10 @@
 .item p a:focus {
   border-color: #F1B2CE;
 }
+
+@media screen and (min-width: 768px) {
+  .theme-dark .page .header .rec {
+    right: 20px;
+    top: 20px;
+  }
+}
