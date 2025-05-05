@@ -5,10 +5,9 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #ff0070; 
+  --shaddow-color: #DB00FF; 
+  --border-color: #F1B2CE;
 }
 
 .theme-dark .page {
@@ -30,7 +29,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  color: #FF0070;
+  color: var(--accent-color);
 }
 
 .theme-dark .page .header .rec::after {
@@ -41,25 +40,25 @@
   width: 9px;
   height: 9px;
   border-radius: 100%;
-  background-color: #FF0070;
-  box-shadow: 0px 0px 4px 2px #FF0070;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
 }
 
 .theme-dark .page .header h1 {
-  text-shadow: 4px 4px 0px #FF0070;
-  color: #DB00FF;
+  text-shadow: 4px 4px 0px var(--accent-color);
+  color: var(--shaddow-color);
 }
 
 .theme-dark #footer .logo {
-  text-shadow: 2px 2px 0px #FF0070;
-  color: #DB00FF;
+  text-shadow: 2px 2px 0px var(--accent-color);
+  color: var(--shaddow-color);
 }
 
 .theme-dark .page .header .title-decor,
 .theme-dark .item h3,
 .theme-dark .gallery h3,
 .theme-dark .section-title {
-  background-color: #FF0070;
+  background-color: var(--accent-color);
 }
 
 .theme-dark .page .header p,
@@ -71,7 +70,7 @@
 
 .theme-dark .article,
 .theme-dark .page .header button {
-  color: #FF0070;
+  color: var(--accent-color);
 }
 
 .theme-dark .page .header button:hover {
@@ -79,25 +78,28 @@
 }
 
 .theme-dark .page .header button:focus {
-  border-bottom-color: #FF0070;
+  border-bottom-color: var(--accent-color);
 }
 
 .theme-dark .item p {
-  color: #F1B2CE;
+  color: var(--border-color);
 }
 
 .theme-dark .item p a:focus {
-  border-color: #F1B2CE;
+  border-color: var(--border-color);
 }
 
 .theme-dark .item p a {
-  text-shadow: 2px 2px 0px #FF0070;
+  text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 .theme-dark .page .header .header__theme-menu-button_active {
-  border-color: #FF0070;
+  border-color: var(--accent-color);
 }
 
+.theme-dark .item p a:hover::after {
+  background-color: var(--border-color);
+}
 
 @media screen and (min-width: 768px) {
   .theme-dark .page .header .rec {

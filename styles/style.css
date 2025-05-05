@@ -161,10 +161,6 @@
   background-color: transparent;
 }
 
-.item p a:hover::after {
-  background-color: #F1B2CE;
-}
-
 .item p a:focus {
   border: 1px solid;
 }
