@@ -174,24 +174,6 @@
   border: 1px solid;
 }
 
-.vsr_2 {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 20px; */
-}
-
-.vsr_2 .article {
-  /* display: grid;
-  grid-row: 1;
-  grid-column: 1; */
-}
-
-.vsr_2 .item {
-  /* grid-row: 2;
-  grid-template-columns: 1fr 1fr 1fr; */
-}
-
 .section-title {
   display: block;
   font-family: 'IBM Plex mono';
@@ -450,5 +432,23 @@
   .page .header p,
   .page .header h1 {
     margin-top: unset;
+  }
+
+  .vsr_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+  
+  .vsr_2 .article {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  .vsr_2 .item {
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
