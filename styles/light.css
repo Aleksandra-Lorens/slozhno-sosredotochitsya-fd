@@ -5,49 +5,44 @@
 */
 
 :root.theme-light {
-  --accent-color: #FFC2E6;
-  --shaddow-color: #FF8DCB;
+  --accent-color: #FF8DCB;
+  --shaddow-color: #FFC2E6;
   --border-color: #353430;
+  --background-image: url(../images/cover-image-light.png);
+  --header-icon: url(../images/header_icon_dark.svg);
+  --rec-item: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #FFC2E6;
-    --shaddow-color: #FF8DCB;
+    --accent-color: #FF8DCB;
+    --shaddow-color: #FFC2E6;
     --border-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --header-icon: url(../images/header_icon_dark.svg);
+    --rec-item: none;
   }
-}
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: url(../images/cover-image-light.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
+  .page .header p,
+  .item h3,
+  .gallery h3,
+  .section-title,
+  .article,
+  .page .header button {
+    color: var(--border-color);
+  }
 
-.theme-light .page .header::after,
-.theme-light .page #footer::after,
-.theme-light .page .header::before,
-.theme-light .page #footer::before {
-  background-image: url(../images/header_icon_dark.svg);
-}
+  .page .header button:focus {
+    border-bottom-color: var(--border-color);
+  }
 
-.theme-light .page .header h1 {
-  text-shadow: 4px 4px 0px var(--shaddow-color);
-  color: var(--accent-color);
-}
+  .page .header button:hover {
+    border-color: #32312D66
+  }
 
-.theme-light #footer .logo {
-  text-shadow: 2px 2px 0px var(--shaddow-color);
-  color: var(--accent-color);
-}
-
-.theme-light .page .header .title-decor,
-.theme-light .item h3,
-.theme-light .gallery h3,
-.theme-light .section-title {
-  background-color: var(--shaddow-color);
+  .page .header .header__theme-menu-button_active {
+    border-color: var(--border-color);
+  }
 }
 
 .theme-light .page .header p,
@@ -55,29 +50,16 @@
 .theme-light .gallery h3,
 .theme-light .section-title,
 .theme-light .article,
-.theme-light .page .header button,
-.theme-light .item p {
+.theme-light .page .header button {
   color: var(--border-color);
-}
-
-.theme-light .page .header button:hover {
-  border-color: #32312D66
 }
 
 .theme-light .page .header button:focus {
   border-bottom-color: var(--border-color);
 }
 
-.theme-light .item p a:focus {
-  border-color: var(--border-color);
-}
-
-.theme-light .item p a {
-  text-shadow: 2px 2px 0px var(--shaddow-color);
-}
-
-.theme-light .item p a:hover::after {
-  background-color: var(--border-color);
+.theme-light .page .header button:hover {
+  border-color: #32312D66
 }
 
 .theme-light .page .header .header__theme-menu-button_active {
