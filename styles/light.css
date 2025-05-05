@@ -13,4 +13,8 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: url(../images/cover-image-light.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
