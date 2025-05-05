@@ -18,3 +18,57 @@
   background-position: center;
   background-size: cover;
 }
+
+.theme-light .page .header::after,
+.theme-light .page #footer::after,
+.theme-light .page .header::before,
+.theme-light .page #footer::before {
+  background-image: url(../images/header_icon_dark.svg);
+}
+
+.theme-light .page .header h1 {
+  text-shadow: 4px 4px 0px #FF8DCB;
+  color: #FFC2E6;
+}
+
+.theme-light #footer .logo {
+  text-shadow: 2px 2px 0px #FF8DCB;
+  color: #FFC2E6;
+}
+
+.theme-light .page .header .title-decor,
+.theme-light .item h3,
+.theme-light .gallery h3,
+.theme-light .section-title {
+  background-color: #FF8DCB;
+}
+
+.theme-light .page .header p,
+.theme-light .item h3,
+.theme-light .gallery h3,
+.theme-light .section-title,
+.theme-light .article,
+.theme-light .page .header button,
+.theme-light .item p {
+  color: #353430;
+}
+
+.theme-light .page .header button:hover {
+  border-color: #32312D66
+}
+
+.theme-light .page .header button:focus {
+  border-bottom-color: #353430;
+}
+
+.theme-light .item p a:focus {
+  border-color: #353430;
+}
+
+.theme-light .item p a {
+  text-shadow: 2px 2px 0px #FF8DCB;
+}
+
+.theme-light .page .header .header__theme-menu-button_active {
+  border-color: #353430;
+}

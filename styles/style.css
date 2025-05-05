@@ -97,10 +97,6 @@
   margin-top: 75px;
 }
 
-.page .header .header__theme-menu-button_active {
-  border-color: #FF0070;
-}
-
 .main_items {
   margin-top: 50px;
 }
@@ -152,7 +148,6 @@
 
 .item p a {
   text-decoration: none;
-  text-shadow: 2px 2px 0px #FF0070;
   position: relative;
 }
 

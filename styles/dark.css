@@ -86,9 +86,18 @@
   color: #F1B2CE;
 }
 
-.item p a:focus {
+.theme-dark .item p a:focus {
   border-color: #F1B2CE;
 }
+
+.theme-dark .item p a {
+  text-shadow: 2px 2px 0px #FF0070;
+}
+
+.theme-dark .page .header .header__theme-menu-button_active {
+  border-color: #FF0070;
+}
+
 
 @media screen and (min-width: 768px) {
   .theme-dark .page .header .rec {
