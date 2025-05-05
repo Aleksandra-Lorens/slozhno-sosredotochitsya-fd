@@ -403,6 +403,10 @@
     margin-top: 80px;
   }
 
+  .main_items:first-of-type {
+    margin-top: 0;
+  }
+
   .vsr_2 .article {
     width: 236px;
     max-width: 100%;
