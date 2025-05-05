@@ -480,6 +480,10 @@
     min-height: 1024px;
   }
 
+  #footer .logo {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
   .page .header .rec {
     right: 20px;
     top: 20px;
@@ -533,7 +537,6 @@
 
   .page .header h1 {
     margin-bottom: -134px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .page .header p {
