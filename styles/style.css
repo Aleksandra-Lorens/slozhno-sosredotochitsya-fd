@@ -10,7 +10,7 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
-.page .header .rec {
+.page .rec {
   display: var( --rec-item);
   position: absolute;
   padding-right: 28px;
@@ -22,7 +22,7 @@
   color: var(--accent-color);
 }
 
-.page .header .rec::after {
+.page .rec::after {
   content: '';
   position: absolute;
   right: 9px;
@@ -489,7 +489,7 @@ article h4,
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .page .header .rec {
+  .page .rec {
     right: 20px;
     top: 20px;
   }
