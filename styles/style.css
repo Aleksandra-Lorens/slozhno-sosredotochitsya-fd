@@ -207,17 +207,17 @@ article p a:focus {
   border-color: var(--border-color);
 }
 
-.section-title {
+.type_vertical_full h3 {
+  font-weight: 400;
+}
+
+.type_vertical_full .section-title {
   display: block;
   font-family: 'IBM Plex mono';
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
   margin-bottom: 20px;
-}
-
-.type_vertical_full h3 {
-  font-weight: 400;
 }
 
 /* @media (max-width: 768px) {
