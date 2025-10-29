@@ -228,7 +228,7 @@ article p a:focus {
   }
 } */
 
-#gallery {
+.gallery_block {
   padding: 0 10px 0 10px;
   margin-top: 50px;
 }
@@ -432,7 +432,7 @@ article h4,
     margin-bottom: 0;
   }
 
-  #gallery {
+  .gallery_block {
     margin-top: 60px;
   }
 
