@@ -50,10 +50,9 @@
   bottom: 10px;
   width: 26px;
   height: 26px;
-  background-image: var(--header-icon);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  border: 1px solid var(--header-icon-color);
+  border-top: 0;
+  border-right: 0;
 }
 
 .page .header::after,
@@ -64,11 +63,9 @@
   top: 10px;
   width: 26px;
   height: 26px;
-  background-image: var(--header-icon);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: rotate(180deg);
+  border: 1px solid var(--header-icon-color);
+  border-bottom: 0;
+  border-left: 0;
 }
 
 .page .header h1 {

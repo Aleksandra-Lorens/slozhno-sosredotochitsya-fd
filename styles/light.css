@@ -9,7 +9,7 @@
   --shaddow-color: #FFC2E6;
   --border-color: #353430;
   --background-image: url(../images/cover-image-light.png);
-  --header-icon: url(../images/header_icon_dark.svg);
+  --header-icon-color: #353430;
   --rec-item: none;
 }
 
@@ -19,7 +19,7 @@
     --shaddow-color: #FFC2E6;
     --border-color: #353430;
     --background-image: url(../images/cover-image-light.png);
-    --header-icon: url(../images/header_icon_dark.svg);
+    --header-icon-color: #353430;
     --rec-item: none;
   }
 

@@ -8,6 +8,6 @@
   --shaddow-color: #DB00FF;
   --border-color: #F1B2CE;
   --background-image: url(../images/cover-image-dark.png);
-  --header-icon: url(../images/header_icon.svg);
+  --header-icon-color: #ff0070;
   --rec-item: block;
 }
