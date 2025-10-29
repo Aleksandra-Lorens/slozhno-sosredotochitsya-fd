@@ -162,8 +162,9 @@ article {
 article:last-of-type {
   margin-bottom: 0;
 }
-
+ 
 article h3,
+article h4,
 .gallery h3 {
   display: block;
   font-family: 'IBM Plex mono';
@@ -207,11 +208,11 @@ article p a:focus {
   border-color: var(--border-color);
 }
 
-.type_vertical_full h3 {
+.type_vertical_full h4 {
   font-weight: 400;
 }
 
-.type_vertical_full .section-title {
+.section-title {
   display: block;
   font-family: 'IBM Plex mono';
   font-weight: 700;
@@ -328,6 +329,7 @@ article p a:focus {
 
 .page .header .title-decor,
 article h3,
+article h4,
 .gallery h3,
 .section-title {
   background-color: var(--accent-color);
@@ -335,6 +337,7 @@ article h3,
 
 .page .header p,
 article h3,
+article h4,
 .gallery h3,
 .section-title {
   color: #000028;
