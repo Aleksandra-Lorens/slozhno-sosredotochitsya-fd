@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: 'IBM Plex mono';
   background-image: var(--background-image);
   background-color: var(--background-color);
   background-attachment: fixed;
@@ -146,7 +145,6 @@
 
 
 .article {
-  font-family: 'IBM Plex mono';
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -165,7 +163,6 @@ article h3,
 article h4,
 .gallery h3 {
   display: block;
-  font-family: 'IBM Plex mono';
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -173,7 +170,6 @@ article h4,
 }
 
 article p {
-  font-family: 'IBM Plex mono';
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
@@ -212,7 +208,6 @@ article p a:focus {
 
 .section-title {
   display: block;
-  font-family: 'IBM Plex mono';
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
