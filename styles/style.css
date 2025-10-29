@@ -135,11 +135,13 @@
 
 .main_items {
   margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
 #main {
-  padding: 40px 10px 0 10px;
+  padding-top: 40px;
 }
 
 .type_vertical {
@@ -384,7 +386,7 @@ article h4,
   }
 
   #main {
-    padding: 60px 20px 0 20px;
+    padding-top: 60px;
   }
 
   .type_vertical {
@@ -404,6 +406,8 @@ article h4,
 
   .main_items {
     margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .main_items:first-of-type {
