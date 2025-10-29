@@ -24,7 +24,7 @@
   }
 
   .page .header p,
-  .item h3,
+  article h3,
   .gallery h3,
   .section-title,
   .article,
@@ -46,7 +46,7 @@
 }
 
 .theme-light .page .header p,
-.theme-light .item h3,
+.theme-light article h3,
 .theme-light .gallery h3,
 .theme-light .section-title,
 .theme-light .article,

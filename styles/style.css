@@ -155,15 +155,15 @@
   margin-bottom: 20px;
 }
 
-.item {
+article {
   margin-bottom: 20px;
 }
 
-.item:last-of-type {
+article:last-of-type {
   margin-bottom: 0;
 }
 
-.item h3,
+article h3,
 .gallery h3 {
   display: block;
   font-family: 'IBM Plex mono';
@@ -173,7 +173,7 @@
   margin-bottom: 10px;
 }
 
-.item p {
+article p {
   font-family: 'IBM Plex mono';
   font-weight: 400;
   font-size: 18px;
@@ -182,13 +182,13 @@
   color: var(--border-color);
 }
 
-.item p a {
+article p a {
   text-decoration: none;
   position: relative;
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-.item p a::after {
+article p a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -198,11 +198,11 @@
   background-color: transparent;
 }
 
-.item p a:hover::after {
+article p a:hover::after {
   background-color: var(--border-color);
 }
 
-.item p a:focus {
+article p a:focus {
   border: 1px solid;
   border-color: var(--border-color);
 }
@@ -327,14 +327,14 @@
 }
 
 .page .header .title-decor,
-.item h3,
+article h3,
 .gallery h3,
 .section-title {
   background-color: var(--accent-color);
 }
 
 .page .header p,
-.item h3,
+article h3,
 .gallery h3,
 .section-title {
   color: #000028;
@@ -432,7 +432,7 @@
     gap: 20px;
   }
 
-  .vsr_3 .item {
+  .vsr_3 article {
     margin-bottom: 0;
   }
 
@@ -526,7 +526,7 @@
     margin-bottom: 0;
   }
 
-  .vsr_2 .item {
+  .vsr_2 article {
     grid-row: 2;
     grid-template-columns: 1fr 1fr 1fr;
   }
