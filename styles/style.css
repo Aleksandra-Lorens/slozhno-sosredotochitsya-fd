@@ -509,22 +509,19 @@ article h4,
 
   .type_horizontal {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row; 
     gap: 20px;
+    grid-auto-rows: auto;
   }
 
   .type_horizontal .article {
     display: grid;
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 1 / -1;
     width: unset;
     margin-bottom: 0;
-  }
-
-  .type_horizontal article {
-    grid-row: 2;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .page .header p {
