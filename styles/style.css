@@ -101,14 +101,14 @@
 }
 
 .page .header button:hover {
-  border-color: #FF007066
+  border-color: var(--button-hover-color)
 }
 
-.theme-dark .page .header button:focus {
+.page .header button:focus {
   border-top-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: var(--accent-color);
+  border-bottom-color: var(--button-color);
 }
 
 .page .header .header__theme-menu-list {
@@ -125,7 +125,7 @@
 }
 
 .page .header .header__theme-menu-button_active {
-  border-color: var(--accent-color);
+  border-color: var(--button-color);
 }
 
 .main_items {

@@ -12,6 +12,8 @@
   --background-color: #fff1f7;
   --header-icon-color: #353430;
   --rec-item: none;
+  --button-color: #353430;
+  --button-hover-color: #32312D66;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,18 +27,6 @@
   .page .header button {
     color: var(--border-color);
   }
-
-  .page .header button:focus {
-    border-bottom-color: var(--border-color);
-  }
-
-  .page .header button:hover {
-    border-color: #32312D66
-  }
-
-  .page .header .header__theme-menu-button_active {
-    border-color: var(--border-color);
-  }
 }
 
 .theme-light .page .header p,
@@ -47,16 +37,4 @@
 .theme-light .article,
 .theme-light .page .header button {
   color: var(--border-color);
-}
-
-.theme-light .page .header button:focus {
-  border-bottom-color: var(--border-color);
-}
-
-.theme-light .page .header button:hover {
-  border-color: #32312D66
-}
-
-.theme-light .page .header .header__theme-menu-button_active {
-  border-color: var(--border-color);
 }
