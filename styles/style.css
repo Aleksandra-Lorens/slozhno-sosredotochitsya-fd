@@ -343,7 +343,7 @@ article h4,
 
 .article,
 .page .header button {
-  color: var(--accent-color);
+  color: var(--article-color);
 }
 
 @media screen and (min-width: 767px) {
