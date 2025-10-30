@@ -333,7 +333,7 @@ article h3,
 article h4,
 .gallery h3,
 .section-title {
-  color: #000028;
+  color: var(--text-color);
 }
 
 .article,

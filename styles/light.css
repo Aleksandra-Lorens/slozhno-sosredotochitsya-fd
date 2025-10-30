@@ -14,27 +14,10 @@
   --rec-item: none;
   --button-color: #353430;
   --button-hover-color: #32312D66;
+  --text-color: #353430;
+  --article-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
 
-  .page .header p,
-  article h3,
-   article h4,
-  .gallery h3,
-  .section-title,
-  .article,
-  .page .header button {
-    color: var(--border-color);
-  }
-}
-
-.theme-light .page .header p,
-.theme-light article h3,
-.theme-light article h4,
-.theme-light .gallery h3,
-.theme-light .section-title,
-.theme-light .article,
-.theme-light .page .header button {
-  color: var(--border-color);
 }
