@@ -182,6 +182,10 @@ article p {
   color: var(--border-color);
 }
 
+article p + p {
+  margin-top: 10px;
+}
+
 article p a {
   text-decoration: none;
   position: relative;
