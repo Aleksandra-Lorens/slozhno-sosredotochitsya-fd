@@ -375,6 +375,11 @@ article h4,
   .page .header p {
     width: 364px;
     max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .page .header nav {
+    margin-top: 15px;
   }
 
   .main {
